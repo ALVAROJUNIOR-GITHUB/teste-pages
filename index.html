@@ -1,1 +1,17 @@
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Minha Página</title>
+</head>
+<body style="background:black;color:lime;font-family:consolas;text-align:center">
+<h1>🔥 GITHUB PAGES FUNCIONANDO</h1>
+<h2>Álvaro esteve aqui</h2>
+<p id="hora"></p>
+<script>
+setInterval(()=>{
+ document.getElementById("hora").innerHTML = "Hora local: " + new Date().toLocaleTimeString();
+},1000);
+</script>
+</body>
+</html>
